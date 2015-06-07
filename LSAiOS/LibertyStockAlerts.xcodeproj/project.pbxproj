@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F321BB61987D22800D3D3B6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F321BB51987D22800D3D3B6 /* Images.xcassets */; };
+		FA7D2D4D198167E30021446C /* liberty_logo_extralarge.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7D2D4C198167E30021446C /* liberty_logo_extralarge.png */; };
+		FA7D2D4F1981692B0021446C /* libertylogo.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7D2D4E1981692B0021446C /* libertylogo.png */; };
+		FA7D2D5119816FFB0021446C /* settingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7D2D5019816FFB0021446C /* settingsView.xib */; };
+		FA9BB82E19842FB100FBEA0F /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9BB81C19842FB100FBEA0F /* AFHTTPRequestOperation.m */; };
+		FA9BB82F19842FB100FBEA0F /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9BB81E19842FB100FBEA0F /* AFHTTPRequestOperationManager.m */; };
+		FA9BB83019842FB100FBEA0F /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9BB82019842FB100FBEA0F /* AFHTTPSessionManager.m */; };
+		FA9BB83119842FB100FBEA0F /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9BB82319842FB100FBEA0F /* AFNetworkReachabilityManager.m */; };
+		FA9BB83219842FB100FBEA0F /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9BB82519842FB100FBEA0F /* AFSecurityPolicy.m */; };
+		FA9BB83319842FB100FBEA0F /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9BB82719842FB100FBEA0F /* AFURLConnectionOperation.m */; };
+		FA9BB83419842FB100FBEA0F /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9BB82919842FB100FBEA0F /* AFURLRequestSerialization.m */; };
+		FA9BB83519842FB100FBEA0F /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9BB82B19842FB100FBEA0F /* AFURLResponseSerialization.m */; };
+		FA9BB83619842FB100FBEA0F /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9BB82D19842FB100FBEA0F /* AFURLSessionManager.m */; };
+		FAB22D371986EBB600935E43 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB22D361986EBB600935E43 /* CoreAudio.framework */; };
+		FAB22D391986EBF200935E43 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB22D381986EBF200935E43 /* AudioToolbox.framework */; };
+		FAB22D3B1986EC7800935E43 /* cas.aiff in Resources */ = {isa = PBXBuildFile; fileRef = FAB22D3A1986EC7800935E43 /* cas.aiff */; };
+		FAF1CB581994F0ED002A28AC /* lowdong.aiff in Resources */ = {isa = PBXBuildFile; fileRef = FAF1CB571994F0ED002A28AC /* lowdong.aiff */; };
+		FAFB3859198167B80019AAA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAFB3858198167B80019AAA9 /* Foundation.framework */; };
+		FAFB385B198167B80019AAA9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAFB385A198167B80019AAA9 /* CoreGraphics.framework */; };
+		FAFB385D198167B80019AAA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAFB385C198167B80019AAA9 /* UIKit.framework */; };
+		FAFB3863198167B80019AAA9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAFB3861198167B80019AAA9 /* InfoPlist.strings */; };
+		FAFB3865198167B80019AAA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFB3864198167B80019AAA9 /* main.m */; };
+		FAFB3869198167B80019AAA9 /* LSAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFB3868198167B80019AAA9 /* LSAAppDelegate.m */; };
+		FAFB386C198167B80019AAA9 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFB386A198167B80019AAA9 /* Main_iPhone.storyboard */; };
+		FAFB386F198167B80019AAA9 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFB386D198167B80019AAA9 /* Main_iPad.storyboard */; };
+		FAFB3872198167B80019AAA9 /* LSAMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFB3871198167B80019AAA9 /* LSAMainViewController.m */; };
+		FAFB3875198167B80019AAA9 /* LSAFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFB3874198167B80019AAA9 /* LSAFlipsideViewController.m */; };
+		FAFB387E198167B80019AAA9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAFB387D198167B80019AAA9 /* XCTest.framework */; };
+		FAFB387F198167B80019AAA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAFB3858198167B80019AAA9 /* Foundation.framework */; };
+		FAFB3880198167B80019AAA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAFB385C198167B80019AAA9 /* UIKit.framework */; };
+		FAFB3888198167B80019AAA9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAFB3886198167B80019AAA9 /* InfoPlist.strings */; };
+		FAFB388A198167B80019AAA9 /* LibertyStockAlertsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFB3889198167B80019AAA9 /* LibertyStockAlertsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAFB3881198167B80019AAA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAFB384D198167B80019AAA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAFB3854198167B80019AAA9;
+			remoteInfo = LibertyStockAlerts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F321BB51987D22800D3D3B6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA7D2D4C198167E30021446C /* liberty_logo_extralarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = liberty_logo_extralarge.png; sourceTree = "<group>"; };
+		FA7D2D4E1981692B0021446C /* libertylogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = libertylogo.png; sourceTree = "<group>"; };
+		FA7D2D5019816FFB0021446C /* settingsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = settingsView.xib; sourceTree = "<group>"; };
+		FA9BB81B19842FB100FBEA0F /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		FA9BB81C19842FB100FBEA0F /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		FA9BB81D19842FB100FBEA0F /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		FA9BB81E19842FB100FBEA0F /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		FA9BB81F19842FB100FBEA0F /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		FA9BB82019842FB100FBEA0F /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		FA9BB82119842FB100FBEA0F /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		FA9BB82219842FB100FBEA0F /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		FA9BB82319842FB100FBEA0F /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		FA9BB82419842FB100FBEA0F /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		FA9BB82519842FB100FBEA0F /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		FA9BB82619842FB100FBEA0F /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		FA9BB82719842FB100FBEA0F /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		FA9BB82819842FB100FBEA0F /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		FA9BB82919842FB100FBEA0F /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		FA9BB82A19842FB100FBEA0F /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		FA9BB82B19842FB100FBEA0F /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		FA9BB82C19842FB100FBEA0F /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		FA9BB82D19842FB100FBEA0F /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		FAB22D361986EBB600935E43 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		FAB22D381986EBF200935E43 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FAB22D3A1986EC7800935E43 /* cas.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = cas.aiff; sourceTree = "<group>"; };
+		FAF1CB571994F0ED002A28AC /* lowdong.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = lowdong.aiff; sourceTree = "<group>"; };
+		FAFB3855198167B80019AAA9 /* LibertyStockAlerts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LibertyStockAlerts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFB3858198167B80019AAA9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAFB385A198167B80019AAA9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FAFB385C198167B80019AAA9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FAFB3860198167B80019AAA9 /* LibertyStockAlerts-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LibertyStockAlerts-Info.plist"; sourceTree = "<group>"; };
+		FAFB3862198167B80019AAA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAFB3864198167B80019AAA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAFB3866198167B80019AAA9 /* LibertyStockAlerts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LibertyStockAlerts-Prefix.pch"; sourceTree = "<group>"; };
+		FAFB3867198167B80019AAA9 /* LSAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSAAppDelegate.h; sourceTree = "<group>"; };
+		FAFB3868198167B80019AAA9 /* LSAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSAAppDelegate.m; sourceTree = "<group>"; };
+		FAFB386B198167B80019AAA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		FAFB386E198167B80019AAA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		FAFB3870198167B80019AAA9 /* LSAMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSAMainViewController.h; sourceTree = "<group>"; };
+		FAFB3871198167B80019AAA9 /* LSAMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSAMainViewController.m; sourceTree = "<group>"; };
+		FAFB3873198167B80019AAA9 /* LSAFlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSAFlipsideViewController.h; sourceTree = "<group>"; };
+		FAFB3874198167B80019AAA9 /* LSAFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSAFlipsideViewController.m; sourceTree = "<group>"; };
+		FAFB387C198167B80019AAA9 /* LibertyStockAlertsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibertyStockAlertsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFB387D198167B80019AAA9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FAFB3885198167B80019AAA9 /* LibertyStockAlertsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LibertyStockAlertsTests-Info.plist"; sourceTree = "<group>"; };
+		FAFB3887198167B80019AAA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAFB3889198167B80019AAA9 /* LibertyStockAlertsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibertyStockAlertsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAFB3852198167B80019AAA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB22D391986EBF200935E43 /* AudioToolbox.framework in Frameworks */,
+				FAB22D371986EBB600935E43 /* CoreAudio.framework in Frameworks */,
+				FAFB385B198167B80019AAA9 /* CoreGraphics.framework in Frameworks */,
+				FAFB385D198167B80019AAA9 /* UIKit.framework in Frameworks */,
+				FAFB3859198167B80019AAA9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFB3879198167B80019AAA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFB387E198167B80019AAA9 /* XCTest.framework in Frameworks */,
+				FAFB3880198167B80019AAA9 /* UIKit.framework in Frameworks */,
+				FAFB387F198167B80019AAA9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA9BB81A19842FB100FBEA0F /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				FA9BB81B19842FB100FBEA0F /* AFHTTPRequestOperation.h */,
+				FA9BB81C19842FB100FBEA0F /* AFHTTPRequestOperation.m */,
+				FA9BB81D19842FB100FBEA0F /* AFHTTPRequestOperationManager.h */,
+				FA9BB81E19842FB100FBEA0F /* AFHTTPRequestOperationManager.m */,
+				FA9BB81F19842FB100FBEA0F /* AFHTTPSessionManager.h */,
+				FA9BB82019842FB100FBEA0F /* AFHTTPSessionManager.m */,
+				FA9BB82119842FB100FBEA0F /* AFNetworking.h */,
+				FA9BB82219842FB100FBEA0F /* AFNetworkReachabilityManager.h */,
+				FA9BB82319842FB100FBEA0F /* AFNetworkReachabilityManager.m */,
+				FA9BB82419842FB100FBEA0F /* AFSecurityPolicy.h */,
+				FA9BB82519842FB100FBEA0F /* AFSecurityPolicy.m */,
+				FA9BB82619842FB100FBEA0F /* AFURLConnectionOperation.h */,
+				FA9BB82719842FB100FBEA0F /* AFURLConnectionOperation.m */,
+				FA9BB82819842FB100FBEA0F /* AFURLRequestSerialization.h */,
+				FA9BB82919842FB100FBEA0F /* AFURLRequestSerialization.m */,
+				FA9BB82A19842FB100FBEA0F /* AFURLResponseSerialization.h */,
+				FA9BB82B19842FB100FBEA0F /* AFURLResponseSerialization.m */,
+				FA9BB82C19842FB100FBEA0F /* AFURLSessionManager.h */,
+				FA9BB82D19842FB100FBEA0F /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		FAFB384C198167B80019AAA9 = {
+			isa = PBXGroup;
+			children = (
+				FAFB385E198167B80019AAA9 /* LibertyStockAlerts */,
+				FAFB3883198167B80019AAA9 /* LibertyStockAlertsTests */,
+				FAFB3857198167B80019AAA9 /* Frameworks */,
+				FAFB3856198167B80019AAA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAFB3856198167B80019AAA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAFB3855198167B80019AAA9 /* LibertyStockAlerts.app */,
+				FAFB387C198167B80019AAA9 /* LibertyStockAlertsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAFB3857198167B80019AAA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAB22D381986EBF200935E43 /* AudioToolbox.framework */,
+				FAB22D361986EBB600935E43 /* CoreAudio.framework */,
+				FAFB3858198167B80019AAA9 /* Foundation.framework */,
+				FAFB385A198167B80019AAA9 /* CoreGraphics.framework */,
+				FAFB385C198167B80019AAA9 /* UIKit.framework */,
+				FAFB387D198167B80019AAA9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAFB385E198167B80019AAA9 /* LibertyStockAlerts */ = {
+			isa = PBXGroup;
+			children = (
+				FA9BB81A19842FB100FBEA0F /* AFNetworking */,
+				FAB22D3A1986EC7800935E43 /* cas.aiff */,
+				FAF1CB571994F0ED002A28AC /* lowdong.aiff */,
+				FA7D2D4E1981692B0021446C /* libertylogo.png */,
+				FA7D2D4C198167E30021446C /* liberty_logo_extralarge.png */,
+				FAFB3867198167B80019AAA9 /* LSAAppDelegate.h */,
+				FAFB3868198167B80019AAA9 /* LSAAppDelegate.m */,
+				FAFB386A198167B80019AAA9 /* Main_iPhone.storyboard */,
+				FA7D2D5019816FFB0021446C /* settingsView.xib */,
+				FAFB386D198167B80019AAA9 /* Main_iPad.storyboard */,
+				FAFB3870198167B80019AAA9 /* LSAMainViewController.h */,
+				FAFB3871198167B80019AAA9 /* LSAMainViewController.m */,
+				FAFB3873198167B80019AAA9 /* LSAFlipsideViewController.h */,
+				FAFB3874198167B80019AAA9 /* LSAFlipsideViewController.m */,
+				6F321BB51987D22800D3D3B6 /* Images.xcassets */,
+				FAFB385F198167B80019AAA9 /* Supporting Files */,
+			);
+			path = LibertyStockAlerts;
+			sourceTree = "<group>";
+		};
+		FAFB385F198167B80019AAA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAFB3860198167B80019AAA9 /* LibertyStockAlerts-Info.plist */,
+				FAFB3861198167B80019AAA9 /* InfoPlist.strings */,
+				FAFB3864198167B80019AAA9 /* main.m */,
+				FAFB3866198167B80019AAA9 /* LibertyStockAlerts-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAFB3883198167B80019AAA9 /* LibertyStockAlertsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAFB3889198167B80019AAA9 /* LibertyStockAlertsTests.m */,
+				FAFB3884198167B80019AAA9 /* Supporting Files */,
+			);
+			path = LibertyStockAlertsTests;
+			sourceTree = "<group>";
+		};
+		FAFB3884198167B80019AAA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAFB3885198167B80019AAA9 /* LibertyStockAlertsTests-Info.plist */,
+				FAFB3886198167B80019AAA9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAFB3854198167B80019AAA9 /* LibertyStockAlerts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAFB388D198167B80019AAA9 /* Build configuration list for PBXNativeTarget "LibertyStockAlerts" */;
+			buildPhases = (
+				FAFB3851198167B80019AAA9 /* Sources */,
+				FAFB3852198167B80019AAA9 /* Frameworks */,
+				FAFB3853198167B80019AAA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LibertyStockAlerts;
+			productName = LibertyStockAlerts;
+			productReference = FAFB3855198167B80019AAA9 /* LibertyStockAlerts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAFB387B198167B80019AAA9 /* LibertyStockAlertsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAFB3890198167B80019AAA9 /* Build configuration list for PBXNativeTarget "LibertyStockAlertsTests" */;
+			buildPhases = (
+				FAFB3878198167B80019AAA9 /* Sources */,
+				FAFB3879198167B80019AAA9 /* Frameworks */,
+				FAFB387A198167B80019AAA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAFB3882198167B80019AAA9 /* PBXTargetDependency */,
+			);
+			name = LibertyStockAlertsTests;
+			productName = LibertyStockAlertsTests;
+			productReference = FAFB387C198167B80019AAA9 /* LibertyStockAlertsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAFB384D198167B80019AAA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LSA;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = MagmaStone;
+				TargetAttributes = {
+					FAFB387B198167B80019AAA9 = {
+						TestTargetID = FAFB3854198167B80019AAA9;
+					};
+				};
+			};
+			buildConfigurationList = FAFB3850198167B80019AAA9 /* Build configuration list for PBXProject "LibertyStockAlerts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAFB384C198167B80019AAA9;
+			productRefGroup = FAFB3856198167B80019AAA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAFB3854198167B80019AAA9 /* LibertyStockAlerts */,
+				FAFB387B198167B80019AAA9 /* LibertyStockAlertsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAFB3853198167B80019AAA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFB386F198167B80019AAA9 /* Main_iPad.storyboard in Resources */,
+				6F321BB61987D22800D3D3B6 /* Images.xcassets in Resources */,
+				FA7D2D4F1981692B0021446C /* libertylogo.png in Resources */,
+				FAF1CB581994F0ED002A28AC /* lowdong.aiff in Resources */,
+				FAFB386C198167B80019AAA9 /* Main_iPhone.storyboard in Resources */,
+				FA7D2D4D198167E30021446C /* liberty_logo_extralarge.png in Resources */,
+				FAB22D3B1986EC7800935E43 /* cas.aiff in Resources */,
+				FA7D2D5119816FFB0021446C /* settingsView.xib in Resources */,
+				FAFB3863198167B80019AAA9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFB387A198167B80019AAA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFB3888198167B80019AAA9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAFB3851198167B80019AAA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFB3872198167B80019AAA9 /* LSAMainViewController.m in Sources */,
+				FA9BB83219842FB100FBEA0F /* AFSecurityPolicy.m in Sources */,
+				FAFB3875198167B80019AAA9 /* LSAFlipsideViewController.m in Sources */,
+				FA9BB82F19842FB100FBEA0F /* AFHTTPRequestOperationManager.m in Sources */,
+				FA9BB83319842FB100FBEA0F /* AFURLConnectionOperation.m in Sources */,
+				FA9BB82E19842FB100FBEA0F /* AFHTTPRequestOperation.m in Sources */,
+				FAFB3865198167B80019AAA9 /* main.m in Sources */,
+				FA9BB83419842FB100FBEA0F /* AFURLRequestSerialization.m in Sources */,
+				FA9BB83019842FB100FBEA0F /* AFHTTPSessionManager.m in Sources */,
+				FA9BB83119842FB100FBEA0F /* AFNetworkReachabilityManager.m in Sources */,
+				FA9BB83519842FB100FBEA0F /* AFURLResponseSerialization.m in Sources */,
+				FA9BB83619842FB100FBEA0F /* AFURLSessionManager.m in Sources */,
+				FAFB3869198167B80019AAA9 /* LSAAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFB3878198167B80019AAA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFB388A198167B80019AAA9 /* LibertyStockAlertsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAFB3882198167B80019AAA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAFB3854198167B80019AAA9 /* LibertyStockAlerts */;
+			targetProxy = FAFB3881198167B80019AAA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAFB3861198167B80019AAA9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAFB3862198167B80019AAA9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FAFB386A198167B80019AAA9 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAFB386B198167B80019AAA9 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		FAFB386D198167B80019AAA9 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAFB386E198167B80019AAA9 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		FAFB3886198167B80019AAA9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAFB3887198167B80019AAA9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAFB388B198167B80019AAA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAFB388C198167B80019AAA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAFB388E198167B80019AAA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LibertyStockAlerts/LibertyStockAlerts-Prefix.pch";
+				INFOPLIST_FILE = "LibertyStockAlerts/LibertyStockAlerts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FAFB388F198167B80019AAA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LibertyStockAlerts/LibertyStockAlerts-Prefix.pch";
+				INFOPLIST_FILE = "LibertyStockAlerts/LibertyStockAlerts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FAFB3891198167B80019AAA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LibertyStockAlerts.app/LibertyStockAlerts";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LibertyStockAlerts/LibertyStockAlerts-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LibertyStockAlertsTests/LibertyStockAlertsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FAFB3892198167B80019AAA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LibertyStockAlerts.app/LibertyStockAlerts";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LibertyStockAlerts/LibertyStockAlerts-Prefix.pch";
+				INFOPLIST_FILE = "LibertyStockAlertsTests/LibertyStockAlertsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAFB3850198167B80019AAA9 /* Build configuration list for PBXProject "LibertyStockAlerts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFB388B198167B80019AAA9 /* Debug */,
+				FAFB388C198167B80019AAA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAFB388D198167B80019AAA9 /* Build configuration list for PBXNativeTarget "LibertyStockAlerts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFB388E198167B80019AAA9 /* Debug */,
+				FAFB388F198167B80019AAA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAFB3890198167B80019AAA9 /* Build configuration list for PBXNativeTarget "LibertyStockAlertsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFB3891198167B80019AAA9 /* Debug */,
+				FAFB3892198167B80019AAA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAFB384D198167B80019AAA9 /* Project object */;
+}

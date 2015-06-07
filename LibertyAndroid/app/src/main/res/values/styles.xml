@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="AppTheme" parent="android:Theme.Holo.Light">
+        <!-- Customize your theme here. -->
+        <item name="android:editTextStyle">@style/ios7edits</item>
+        <item name="android:buttonStyle">@style/ios7buttonedits</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="dActionBar" parent="@android:style/Widget.Holo.ActionBar">
+
+    </style>
+    <style name="ios7edits" parent="android:Widget.EditText">
+        <item name="android:background">@drawable/rectangledit</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+    <style name="ios7buttonedits" parent="android:Widget.Button">
+        <item name="android:background">@drawable/rectangleditbutton</item>
+
+    </style>
+    <style name="ios7editsGrey" parent="android:Widget.EditText">
+        <item name="android:background">@drawable/rectangledgreyd</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+
+    <color name="green">#18C114</color>
+</resources>

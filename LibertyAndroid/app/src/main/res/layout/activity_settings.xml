@@ -1,0 +1,214 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff"
+    >
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="0dp"
+    android:layout_marginRight="0dp"
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords"
+        android:fontFamily="sans-serif-light"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Your Name"/>
+    <EditText
+        android:id="@+id/ownerName"
+        android:hint="John Smith"
+        android:singleLine="true"
+        android:fontFamily="sans-serif-light"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords"
+            android:fontFamily="sans-serif-light"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Your Email"/>
+            <EditText
+                android:singleLine="true"
+                android:inputType="textEmailAddress"
+                android:layout_height="40dp"
+                android:hint="Enter Email here"
+                android:layout_width="fill_parent"
+                android:fontFamily="sans-serif-light"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_weight="1"
+                android:id="@+id/emailField"  android:textAlignment="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginTop="30dp"
+
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Your Shares are worth"/>
+    <EditText
+        android:id="@+id/shareValue"
+        android:layout_width="fill_parent"
+        android:fontFamily="sans-serif-light"
+        android:editTextStyle="@style/ios7editsGrey"
+        android:background="@drawable/rectangledgreyd"
+        android:inputType="none"
+        android:focusable="false"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_height="40dp"
+        android:textColor="@color/green"
+        android:text="$100000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:fontFamily="sans-serif-light"
+        android:text="Last Price"/>
+    <EditText
+        android:id="@+id/lastPrice"
+        android:inputType="none"
+        android:layout_width="fill_parent"
+        android:editTextStyle="@style/ios7editsGrey"
+        android:background="@drawable/rectangledgreyd"
+        android:layout_height="40dp"
+        android:focusable="false"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:fontFamily="sans-serif-light"
+        android:text="$1 per share"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:fontFamily="sans-serif-light"
+        android:text="Current Price"/>
+    <EditText
+        android:id="@+id/currentPrice"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:editTextStyle="@style/ios7editsGrey"
+        android:background="@drawable/rectangledgreyd"
+        android:inputType="none"
+        android:focusable="false"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:fontFamily="sans-serif-light"
+        android:text="$1.04 per share"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Percent Change"/>
+    <EditText
+        android:id="@+id/percentChange"
+        android:editTextStyle="@style/ios7editsGrey"
+        android:background="@drawable/rectangledgreyd"
+        android:focusable="false"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:inputType="none"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/green"
+        android:text="1%"/>
+
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:fontFamily="sans-serif-light"
+        android:text="Trade Platform"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="40dp"
+            android:gravity="center_horizontal">
+            <LinearLayout
+                android:id="@+id/foo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+        <info.hoang8f.android.segmented.SegmentedGroup
+            android:id="@+id/segmented2"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/button21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="etrade"
+                style="@style/RadioButton" />
+
+            <RadioButton
+                android:id="@+id/button22"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:text="comsec"
+                style="@style/RadioButton" />
+        </info.hoang8f.android.segmented.SegmentedGroup>
+            </LinearLayout>
+        </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:paddingTop="20dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp" >
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="55dp"
+                android:textColor="#FFF"
+                android:background="#20A236"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:fontFamily="sans-serif-light"
+                android:layout_gravity="bottom|center_horizontal"
+                android:id="@+id/getApp"
+                android:text="Get your own App"
+                />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ellipsize="end"
+            android:paddingTop="20dp"
+            android:maxLines="5"
+            android:singleLine="false"
+            android:text="This app is an alert app to notify you when your share price goes up or down. This app does not give any advice it just reflects the market value of the share at the point in time the app gets updated."/>
+    </LinearLayout>
+</ScrollView>

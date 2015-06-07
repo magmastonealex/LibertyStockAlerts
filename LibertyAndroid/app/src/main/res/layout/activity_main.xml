@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_gravity="center" android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+    <ImageView
+        android:layout_marginTop="5dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+          android:id="@+id/imageView" android:layout_gravity="center_horizontal|top" android:src="@drawable/libertylogo"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_gravity="center" android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+    <TextView
+        android:id="@+id/nameField"
+        android:layout_width="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="You have"/>
+        <EditText
+            android:singleLine="true"
+            android:inputType="number"
+            android:layout_height="40dp"
+            android:hint="Enter shares here"
+            android:layout_width="fill_parent"
+            android:fontFamily="sans-serif-light"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_weight="1"
+            android:id="@+id/editText" android:text="100 Shares" android:textAlignment="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="You have made"
+            android:id="@+id/youmade" />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/green"
+            android:editTextStyle="@style/ios7editsGrey"
+            android:background="@drawable/rectangledgreyd"
+            android:inputType="none"
+            android:focusable="false"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text=""
+            android:hint="Profit displayed here"
+            android:id="@+id/textView4"/>
+    </LinearLayout>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp" >
+    <Button
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="55dp"
+        android:textColor="#FFF"
+        android:background="#20A236"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:fontFamily="sans-serif-light"
+        android:layout_gravity="bottom|center_horizontal"
+        android:id="@+id/buyButton"
+        android:text="Make a Trade Now"
+        />
+        </LinearLayout>
+</RelativeLayout>
